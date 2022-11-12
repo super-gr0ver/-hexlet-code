@@ -1,2 +1,2 @@
-node bin/brain-games.js
-Welcome to the Brain Games!
+//node bin/brain-games.js
+console.log("Welcome to the Brain Games!")
