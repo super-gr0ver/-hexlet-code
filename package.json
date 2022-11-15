@@ -1,11 +1,12 @@
 {
-  "name": "@hexlet/code",
-  "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/super-gr0ver/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/super-gr0ver/frontend-project-44/actions)",
-  "main": "index.js",
+  "type": "module",
   "bin": {
-    "code": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
+  "name": "frontend-project-44",
+  "description": "[![Actions Status](https://github.com/super-gr0ver/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/super-gr0ver/frontend-project-44/actions)",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
