@@ -1,9 +1,11 @@
 {
   "name": "frontend-project-44",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/super-gr0ver/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/super-gr0ver/frontend-project-44/actions)",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,14 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/super-gr0ver/frontend-project-44.git"
   },
-  "author": "",
+  "author": "Evgeniy Dorodnov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/super-gr0ver/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/super-gr0ver/frontend-project-44#readme",
-  "bin": {
-    "brain-games": "bin/brain-games.js"
-  }
+  "homepage": "https://github.com/super-gr0ver/frontend-project-44#readme"
 }
 
