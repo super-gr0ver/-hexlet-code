@@ -7,7 +7,7 @@ export const game = () => {
   console.log(`${answerText}\nQuestion: ${randomNumber}`);
   const userAnswer = readlineSync.question('Your answer: ');
 
-  if (userAnswer != 'yes' || userAnswer != 'no') {
+  if (userAnswer !== 'yes' && userAnswer !== 'no') {
     return `${userAnswer} is wrong answer ;(. Correct answer was 'yes' or 'no' .`;
   }
 
