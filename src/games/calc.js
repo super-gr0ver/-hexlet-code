@@ -44,5 +44,5 @@ export const getCalc = () => {
         break;
     }
   }
-  return count;
+  return console.log('Congratulations, ___!');
 };
