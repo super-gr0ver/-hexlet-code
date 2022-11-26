@@ -12,7 +12,6 @@ export const getCalc = () => {
 
     console.log(`Question: ${num1} ${operators[index]} ${num2}`);
     const userAnswer = Number(readlineSync.question('Your answer: '));
-    console.log(typeof (userAnswer));
 
     switch (operators[index]) {
       case '+':
