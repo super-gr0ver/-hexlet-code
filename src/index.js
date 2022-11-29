@@ -13,14 +13,11 @@ export const getAnswer = () => {
   return userAnswer;
 };
 
-export const games = (question, answer, raund = 3) => {
-  for (let i = 0; i <= raund; i += 1) {
-    console.log(question);
-    if (question === answer) {
-      console.log('Correct!');
-    } else {
-      return console.log(`'${question}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${getUserName()}!`);
-    }
+const userName = getUserName();
+export const games = (question, answer, name = userName) => {
+  if (question === answer) {
+    console.log('Correct!');
+  } else {
+    return console.log(`'${question}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${name}!`);
   }
-  return console.log(`Congratulations, ${getUserName()}!`);
 };
