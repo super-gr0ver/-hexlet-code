@@ -2,7 +2,7 @@
 import  gameEngine  from '../index.js';
 import  getRandomInRange  from '../randomizer.js';
 
-export const even = () => {
+const even = () => {
   const gameDescription = () => 'Answer "yes" if the number is even, otherwise answer "no".';
 
   const isEven = (checkNumber) => {

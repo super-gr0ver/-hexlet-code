@@ -1,15 +1,14 @@
-/* eslint-disable import/prefer-default-export */
-// import readlineSync from 'readline-sync';
-import { getUserName, getAnswer } from '../index.js';
 
-const welcomeName = getUserName();
+import gameEngine from '../index.js';
+import  getRandomInRange  from '../randomizer.js';
 
-export const getCalc = () => {
-  let count = '';
-  for (let i = 0; i < 3; i += 1) {
-    const num1 = Math.trunc(Math.random() * 10);
-    const num2 = Math.trunc(Math.random() * 10);
-    const index = Math.trunc(Math.random() * 3);
+export const сalc = () => {
+  const gameDescription = () => 'Answer "yes" if the number is even, otherwise answer "no".';
+  
+    let count = '';
+    const num1 = getRandomInRange(0, 10);
+    const num2 = getRandomInRange(0, 10);
+    const index = getRandomInRange(0, 3);
     const operators = ['+', '-', '*'];
 
     console.log(`Question: ${num1} ${operators[index]} ${num2}`);
@@ -41,9 +40,8 @@ export const getCalc = () => {
         }
         break;
       default:
-
         break;
-    }
+    
   }
-  return console.log(`Congratulations, ${welcomeName}!`);
+  
 };
