@@ -1,23 +1,24 @@
 /* eslint-disable import/prefer-default-export */
 import readlineSync from 'readline-sync';
 
-export const getUserName = () => {
+export const gameEngine = (question, task) => {
   console.log('Welcome to the Brain Games!');
-  const welcomeName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${welcomeName}!`);
-  return welcomeName;
-};
+  const userName = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${userName}!`);
+  console.log(`${question}!`);
 
-export const getAnswer = () => {
-  const userAnswer = readlineSync.question('Your answer: ');
-  return userAnswer;
-};
+  const rounds = 3;
+  for (let i = 0; i < rounds; i += 1) {
+    const taskResult = task;
+    console.log(`Question: ${taskResult[0]}`);
+    const userAnswer = readlineSync.question('Your answer: ');
+    const rightAnswer = taskResult[1];
 
-const userName = getUserName();
-export const games = (question, answer, name = userName) => {
-  if (question === answer) {
-    console.log('Correct!');
-  } else {
-    return console.log(`'${question}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${name}!`);
-  }
+    if (userAnswer === rightAnswer) {
+      console.log('Correct!');
+    } else {
+      return console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}". \nLet's try again, ${userName}!`);
+    }
+  } console.log(`Congratulations, ${userName}!`);
 };
+export default gameEngine;
