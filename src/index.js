@@ -1,15 +1,15 @@
 /* eslint-disable import/prefer-default-export */
 import readlineSync from 'readline-sync';
 
-export const gameEngine = (question, task) => {
-  console.log('Welcome to the Brain Games!');
+console.log('Welcome to the Brain Games!');
+export const gameEngine = (description, task) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
-  console.log(`${question}!`);
+  console.log(`${description()}!`);
 
   const rounds = 3;
   for (let i = 0; i < rounds; i += 1) {
-    const taskResult = task;
+    const taskResult = task();
     console.log(`Question: ${taskResult[0]}`);
     const userAnswer = readlineSync.question('Your answer: ');
     const rightAnswer = taskResult[1];
