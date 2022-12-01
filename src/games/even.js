@@ -1,5 +1,6 @@
 /* eslint-disable import/prefer-default-export */
-import { gameEngine } from '../index.js';
+import  gameEngine  from '../index.js';
+import  getRandomInRange  from '../randomizer.js';
 
 export const even = () => {
   const gameDescription = () => 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -12,7 +13,7 @@ export const even = () => {
   };
 
   const gameTask = () => {
-    const randomNumber = Math.floor(Math.random() * 10);
+    const randomNumber = getRandomInRange (0, 10);
     const answer = isEven(randomNumber);
     const question = String(randomNumber);
     return [question, answer];
