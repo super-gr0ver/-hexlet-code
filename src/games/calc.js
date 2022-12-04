@@ -1,47 +1,31 @@
-
 import gameEngine from '../index.js';
 import  getRandomInRange  from '../randomizer.js';
 
-export const сalc = () => {
-  const gameDescription = () => 'Answer "yes" if the number is even, otherwise answer "no".';
+  const gameDescription = () => 'What is the result of the expression?';
   
-    let count = '';
+  const gameTask = () => {
+    let answer = '';
     const num1 = getRandomInRange(0, 10);
     const num2 = getRandomInRange(0, 10);
-    const index = getRandomInRange(0, 3);
+    const index = getRandomInRange(0, 2);
     const operators = ['+', '-', '*'];
-
-    console.log(`Question: ${num1} ${operators[index]} ${num2}`);
-    const userAnswer = Number(getAnswer());
+    const question = String(`${num1} ${operators[index]} ${num2}`);
 
     switch (operators[index]) {
       case '+':
-        count = num1 + num2;
-        if (count === userAnswer) {
-          console.log('Correct!');
-        } else {
-          return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${count}'.\nLet's try again, !`);
-        }
+        answer = num1 + num2;
         break;
       case '-':
-        count = num1 - num2;
-        if (count === userAnswer) {
-          console.log('Correct!');
-        } else {
-          return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${count}'.\nLet's try again, !`);
-        }
+        answer = num1 - num2;
         break;
       case '*':
-        count = num1 * num2;
-        if (count === userAnswer) {
-          console.log('Correct!');
-        } else {
-          return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${count}'.\nLet's try again, !`);
-        }
+        answer = num1 * num2;
         break;
-      default:
-        break;
-    
-  }
-  
-};
+        default:
+      }
+      return [question, String(answer)];
+    }
+
+  export default () => {
+    gameEngine(gameDescription, gameTask);
+  };
