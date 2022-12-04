@@ -1,6 +1,8 @@
 import gameEngine from '../index.js';
 import getRandomInRange from '../randomizer.js';
 
+dd;
+
 const gameDescription = () => 'What is the result of the expression?';
 const gameTask = () => {
   let answer = '';
