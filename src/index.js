@@ -1,8 +1,7 @@
-/* eslint-disable import/prefer-default-export */
 import readlineSync from 'readline-sync';
 
 console.log('Welcome to the Brain Games!');
- const gameEngine = (description, task) => {
+const gameEngine = (description, task) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(`${description()}!`);
@@ -19,6 +18,6 @@ console.log('Welcome to the Brain Games!');
     } else {
       return console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}". \nLet's try again, ${userName}!`);
     }
-  } console.log(`Congratulations, ${userName}!`);
+  } return console.log(`Congratulations, ${userName}!`);
 };
 export default gameEngine;
