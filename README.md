@@ -8,4 +8,4 @@
 ### Калькулятор арифметических выражений:
 [![game-calc](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n.svg)](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n)
 
-### Определение наибольшего общего делителя:
+### Определение наибольшего общего делителя:_
