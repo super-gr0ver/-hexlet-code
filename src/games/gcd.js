@@ -4,8 +4,8 @@ import getRandomInRange from '../randomizer.js';
 const gameDescription = () => 'Find the greatest common divisor of given numbers.';
 const gameTask = () => {
   let answer = 0;
-  let num1 = getRandomInRange(0, 10);
-  let num2 = getRandomInRange(0, 10);
+  let num1 = getRandomInRange(0, 100);
+  let num2 = getRandomInRange(0, 100);
   const question = String(`${num1} ${num2}`);
 
   while (num1 !== num2) {
