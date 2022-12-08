@@ -7,6 +7,7 @@ const gameEngine = (description, task) => {
   console.log(`${description()}!`);
 
   const greenColor = '\x1b[32m';
+  const redColor = '\x1b[31m';
   const rounds = 3;
   for (let i = 0; i < rounds; i += 1) {
     const taskResult = task();
@@ -15,10 +16,10 @@ const gameEngine = (description, task) => {
     const rightAnswer = taskResult[1];
 
     if (userAnswer === rightAnswer) {
-      console.log(greenColor, 'Correct!');
+      console.log('Correct!');
     } else {
-      return console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}". \nLet's try again, ${userName}!`);
+      return console.log(redColor, `"${userAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}". \nLet's try again, ${userName}!`);
     }
-  } return console.log(`Congratulations, ${userName}!`);
+  } return console.log(greenColor, `Congratulations, ${userName}!`);
 };
 export default gameEngine;
