@@ -12,7 +12,7 @@ const gameTask = () => {
   }
   arrResult[randomIndex] = ".."
   return arrResult;
-}
+
 };
 
 export default () => {
