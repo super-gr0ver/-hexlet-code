@@ -13,7 +13,7 @@ const gameTask = () => {
   }
 
   const question = result;
-  const answer = result[randomArrIndex];
+  const answer = String(result[randomArrIndex]);
   result[randomArrIndex] = '..';
 
   return [question, answer];
