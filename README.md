@@ -11,4 +11,5 @@
 ### Определение наибольшего общего делителя:
 [![game-gcd](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP.svg)](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP)
 
-### Арифметическая прогрессия:
+### Арифметическая прогрессия
+[![asciicast](https://asciinema.org/a/C1M2YONdbvPwwkfOew6uUSfA8.svg)](https://asciinema.org/a/C1M2YONdbvPwwkfOew6uUSfA8):
