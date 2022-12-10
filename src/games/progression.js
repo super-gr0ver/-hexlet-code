@@ -3,15 +3,20 @@ import getRandomInRange from '../randomizer.js';
 
 const gameDescription = () => 'What number is missing in the progression?';
 const gameTask = () => {
-  const arrLength = getRandomInRange(5, 10);
-  const randomIndex = getRandomInRange(0, 10);
-  console.log(randomIndex);
-  const arrResult = [];
-  for (let index = 0; index < arrLength; index += 1) {
-    arrResult.push(getRandomInRange(0, 10));
+  const randomArrLength = getRandomInRange(5, 10);
+  const randomArrIndex = (getRandomInRange(5, randomArrLength) - 1);
+  const randomStartNumb = getRandomInRange(0, 100);
+
+  const result = [];
+  for (let i = 1; i < randomArrLength ** 2; i += randomArrLength) {
+    result.push(randomStartNumb + i);
   }
-  arrResult[randomIndex] = '..';
-  return arrResult;
+
+  const question = result;
+  const answer = result[randomArrIndex];
+  result[randomArrIndex] = '..';
+
+  return [question, answer];
 };
 
 export default () => {
