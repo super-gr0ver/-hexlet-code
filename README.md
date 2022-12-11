@@ -12,7 +12,7 @@
 [![game-gcd](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP.svg)](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP)
 
 ### Арифметическая прогрессия:
-[![asciicast](https://asciinema.org/a/C1M2YONdbvPwwkfOew6uUSfA8.svg)](https://asciinema.org/a/C1M2YONdbvPwwkfOew6uUSfA8)
+[![asciicast](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8.svg)](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8)
 
 ### Определение простого числа:
 [![asciicast](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S.svg)](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S)
