@@ -15,3 +15,4 @@
 [![asciicast](https://asciinema.org/a/C1M2YONdbvPwwkfOew6uUSfA8.svg)](https://asciinema.org/a/C1M2YONdbvPwwkfOew6uUSfA8)
 
 ### Определение простого числа:
+[![asciicast](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S.svg)](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S)
