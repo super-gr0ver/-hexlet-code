@@ -11,7 +11,6 @@ const gameTask = () => {
   for (let i = 1; i < randomArrLength ** 2; i += randomArrLength) {
     result.push(randomStartNumb + i);
   }
-
   const answer = String(result[randomArrIndex]);
   result[randomArrIndex] = '..';
   const question = result.join(' ');
