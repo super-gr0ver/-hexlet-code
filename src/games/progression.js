@@ -12,10 +12,9 @@ const gameTask = () => {
     result.push(randomStartNumb + i);
   }
 
-  const question = result;
   const answer = String(result[randomArrIndex]);
   result[randomArrIndex] = '..';
-
+  const question = result.join(' ');
   return [question, answer];
 };
 
