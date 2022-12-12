@@ -41,7 +41,7 @@ npm link
 ### Определение четного числа:
 Для запуска игры  введите в командной строке:
 ```
-make brain-even
+brain-even
 ```
 [![game-even](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq.svg)](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq)
 
@@ -49,26 +49,26 @@ make brain-even
 [![game-calc](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n.svg)](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n)
 Для запуска игры  введите в командной строке:
 ```
-make brain-calc
+brain-calc
 ```
 
 ### Определение наибольшего общего делителя:
 [![game-gcd](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP.svg)](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP)
 Для запуска игры  введите в командной строке:
 ```
-make brain-gcd
+brain-gcd
 ```
 
 ### Арифметическая прогрессия:
 [![asciicast](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8.svg)](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8)
 Для запуска игры  введите в командной строке:
 ```
-make brain-progression
+brain-progression
 ```
 
 ### Определение простого числа:
 [![asciicast](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S.svg)](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S)
 Для запуска игры  введите в командной строке:
 ```
-make brain-prime
+brain-prime
 ```
