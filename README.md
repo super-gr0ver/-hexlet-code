@@ -20,7 +20,16 @@
 ```
 git@github.com:super-gr0ver/frontend-project-44.git
 ```
+2. Зайдите в директорию проекта:
+```
+cd frontend-project-44
+```
+3. Установите npm пакет командой:
+```
+npm install
+```
 
+## Описание игр:
 ### Определение четного числа:
 [![game-even](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq.svg)](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq)
 
