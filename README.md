@@ -1,4 +1,4 @@
-# Проект "Игра разума"
+# Проект "Игры разума"
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/super-gr0ver/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/super-gr0ver/frontend-project-44/actions)
@@ -15,6 +15,9 @@
 * Определение наибольшего общего делителя.
 * Определение простого числа.
 
+## Системные требования:
+* Установленный Node.js version 13 или выше
+
 ## Установка проекта:
 1. Клонируйсте репозиторий командой:
 ```
@@ -28,19 +31,44 @@ cd frontend-project-44
 ```
 npm install
 ```
+4. Для установки пакета из операционной системы используйте команду: 
+```
+npm link 
+```
+Её необходимо запускать из корневой директории проекта
 
 ## Описание игр:
 ### Определение четного числа:
+Для запуска игры  введите в командной строке:
+```
+make brain-even
+```
 [![game-even](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq.svg)](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq)
 
 ### Калькулятор арифметических выражений:
 [![game-calc](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n.svg)](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n)
+Для запуска игры  введите в командной строке:
+```
+make brain-calc
+```
 
 ### Определение наибольшего общего делителя:
 [![game-gcd](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP.svg)](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP)
+Для запуска игры  введите в командной строке:
+```
+make brain-gcd
+```
 
 ### Арифметическая прогрессия:
 [![asciicast](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8.svg)](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8)
+Для запуска игры  введите в командной строке:
+```
+make brain-progression
+```
 
 ### Определение простого числа:
 [![asciicast](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S.svg)](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S)
+Для запуска игры  введите в командной строке:
+```
+make brain-prime
+```
