@@ -9,7 +9,7 @@ const gameTask = () => {
 
   const result = [];
   for (let i = 1; i < randomArrLength ** 2; i += randomArrLength) {
-    result.push(randomStartNumb + i);
+    result.push(randomStartNumb);
   }
 
   const answer = String(result[randomArrIndex]);
