@@ -6,68 +6,70 @@
 ### Linter status:
 [![Maintainability](https://api.codeclimate.com/v1/badges/e725594b7276b16c2b9b/maintainability)](https://codeclimate.com/github/super-gr0ver/frontend-project-44/maintainability)
 
-## Описание проекта:
-«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
+## Project decription:
+"Brain Games" is a set of five console games inspired by popular mobile brain-pumping apps. Each game asks questions to be answered correctly. Once three correct answers are given, the game ends. Incorrect answers end the game and prompt you to play it again.
 
-* Калькулятор. Арифметические выражения, которые необходимо вычислить.
-* Прогрессия. Поиск пропущенных чисел в последовательности чисел.
-* Определение четного числа.
-* Определение наибольшего общего делителя.
-* Определение простого числа.
+The games are:
+* Brain even: determining an even number.
+* Brain calculator: calculate random arithmetic expressions.
+* Brain gcd: determining the greatest common divisor.
+* Brain progression: find missing numbers in a number sequence.
+* Brain prime: determining a prime number.
 
-## Системные требования:
-* Установленный Node.js version 13 или выше
+
+## System requirements:
+* Installed Node.js version 13 or higher
 
 ## Установка проекта:
-1. Клонируйсте репозиторий командой:
+1. Clone repository using the command:
 ```
 git@github.com:super-gr0ver/frontend-project-44.git
 ```
-2. Зайдите в директорию проекта:
+2. Enter to project directory:
 ```
 cd frontend-project-44
 ```
-3. Установите npm пакет командой:
+3. Install npm packaje using the command:
 ```
 npm install
 ```
-4. Для установки пакета из операционной системы используйте команду: 
+4. To install a package from the operating system using the command: 
 ```
 npm link 
 ```
-Её необходимо запускать из корневой директории проекта
+The command must be run from the root directory of the project
 
-## Описание игр:
-### Определение четного числа:
-Для запуска игры  введите в командной строке:
+## Game descriptions:
+### Brain even:
+To start the game, enter on the command line:
 ```
 brain-even
 ```
 [![game-even](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq.svg)](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq)
 
-### Калькулятор арифметических выражений:
-Для запуска игры  введите в командной строке:
+### Brain calculator:
+To start the game, enter on the command line:
 ```
 brain-calc
 ```
 [![game-calc](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n.svg)](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n)
 
-### Определение наибольшего общего делителя:
-Для запуска игры  введите в командной строке:
+### Brain gcd:
+To start the game, enter on the command line:
 ```
 brain-gcd
 ```
 [![game-gcd](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP.svg)](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP)
 
-### Арифметическая прогрессия:
-Для запуска игры  введите в командной строке:
+### Brain progression:
+To start the game, enter on the command line:
 ```
 brain-progression
 ```
 [![asciicast](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8.svg)](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8)
 
-### Определение простого числа:
-Для запуска игры  введите в командной строке:
+### Brain prime:
+To start the game, enter on the command line:
 ```
 brain-prime
 ```
