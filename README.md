@@ -20,7 +20,7 @@ The games are:
 ## System requirements:
 * Installed Node.js version 13 or higher
 
-## Установка проекта:
+## Install project:
 1. Clone repository using the command:
 ```
 git@github.com:super-gr0ver/frontend-project-44.git
