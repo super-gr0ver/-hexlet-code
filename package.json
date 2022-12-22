@@ -1,4 +1,6 @@
 {
+  "description": "[![Actions Status](\"Brain Games\" is a set of five console games inspired by popular mobile brain-pumping apps. Each game asks questions to be answered correctly. Once three correct answers are given, the game ends. Incorrect answers end the game and prompt you to play it again.)]",
+  
   "main": "index.js",
   "name": "@hexlet/code",
   "version": "1.0.0",
@@ -31,6 +33,5 @@
     "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
-  },
-  "description": "[![Actions Status](https://github.com/super-gr0ver/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/super-gr0ver/frontend-project-44/actions) [![Maintainability](https://api.codeclimate.com/v1/badges/e725594b7276b16c2b9b/maintainability)](https://codeclimate.com/github/super-gr0ver/frontend-project-44/maintainability)"
+  }
 }
