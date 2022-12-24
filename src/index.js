@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 
 console.log('Welcome to the Brain Games!');
-const gameEngine = (description, task) => {
+const gameEngine = (description, generateRound) => {
   const greenColor = '\x1b[32m';
   const redColor = '\x1b[31m';
   const rounds = 3;
@@ -11,10 +11,10 @@ const gameEngine = (description, task) => {
   console.log(`${description()}!`);
 
   for (let i = 0; i < rounds; i += 1) {
-    const taskResult = task();
-    console.log(`Question: ${taskResult[0]}`);
+    const [outQuestion, outAnswer] = generateRound();
+    console.log(`Question: ${outQuestion}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    const rightAnswer = taskResult[1];
+    const rightAnswer = outAnswer;
 
     if (userAnswer === rightAnswer) {
       console.log('Correct!');
