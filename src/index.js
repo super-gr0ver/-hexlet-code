@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 
-console.log('Welcome to the Brain Games!');
 const gameEngine = (description, generateRound) => {
+  console.log('Welcome to the Brain Games!');
   const greenColor = '\x1b[32m';
   const redColor = '\x1b[31m';
   const rounds = 3;
