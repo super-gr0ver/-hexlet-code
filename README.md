@@ -59,7 +59,7 @@ To start the game, enter on the command line:
 ```
 brain-gcd
 ```
-[![game-gcd](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP.svg)](https://asciinema.org/a/GVInOVrhdxsDeXDD28lOLrBDP)
+[![game-gcd](https://asciinema.org/a/GTEUxl2hQKDbDGlVKWzEenYZU.svg)](https://asciinema.org/a/GTEUxl2hQKDbDGlVKWzEenYZU)
 
 ### Brain progression:
 To start the game, enter on the command line:
