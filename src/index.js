@@ -8,7 +8,7 @@ const gameEngine = (description, generateRound) => {
 
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
-  console.log(`${description()}!`);
+  console.log(`${description}!`);
 
   for (let i = 0; i < rounds; i += 1) {
     const [outQuestion, outAnswer] = generateRound();
