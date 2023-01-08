@@ -28,4 +28,3 @@ const gameTask = () => {
 export default () => {
   gameEngine(gameDescription, gameTask);
 };
-//
