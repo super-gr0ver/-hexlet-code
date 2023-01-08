@@ -45,7 +45,7 @@ To start the game, enter on the command line:
 ```
 brain-even
 ```
-[![game-even](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq.svg)](https://asciinema.org/a/sWGoEbGlPjfltrOuFRSKzZ4Mq)
+[![game-even](https://asciinema.org/a/IbB415j45YXikkZzpfLPKJuVh.svg)](https://asciinema.org/a/IbB415j45YXikkZzpfLPKJuVh)
 
 ### Brain calculator:
 To start the game, enter on the command line:
