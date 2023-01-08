@@ -1,7 +1,7 @@
 import gameEngine from '../index.js';
 import getRandomInRange from '../getRandomInRange.js';
 
-const gameDescription = () => '1Answer "yes" if given number is prime. Otherwise answer "no".';
+const gameDescription = () => 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrime = (checkNumber) => {
   for (let i = 2; i < checkNumber - 1; i += 1) {
     if (Number.isInteger(checkNumber / i)) {

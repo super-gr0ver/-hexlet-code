@@ -66,12 +66,12 @@ To start the game, enter on the command line:
 ```
 brain-progression
 ```
-[![asciicast](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8.svg)](https://asciinema.org/a/HqZ4J5sOEDBfAT7zpV39Gk7n8)
+[![brain-progression](https://asciinema.org/a/vqgaZ9jKVV8zfW1zNZUALGbgX.svg)](https://asciinema.org/a/vqgaZ9jKVV8zfW1zNZUALGbgX)
 
 ### Brain prime:
 To start the game, enter on the command line:
 ```
 brain-prime
 ```
-[![asciicast](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S.svg)](https://asciinema.org/a/Yg6CIWyZEGMRzkCcsuMlQgq9S)
+[![brain-prime](https://asciinema.org/a/hweZnYsNC3kDwhSUDPzY1sS28.svg)](https://asciinema.org/a/hweZnYsNC3kDwhSUDPzY1sS28)
 
