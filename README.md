@@ -52,7 +52,7 @@ To start the game, enter on the command line:
 ```
 brain-calc
 ```
-[![game-calc](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n.svg)](https://asciinema.org/a/Q5yKXUBzq1X24bG8rtKITEC4n)
+[![game-calc](https://asciinema.org/a/bR0aOfmisKD8zjkyLLLcufmi4.svg)](https://asciinema.org/a/bR0aOfmisKD8zjkyLLLcufmi4)
 
 ### Brain gcd:
 To start the game, enter on the command line:
