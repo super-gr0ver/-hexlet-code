@@ -1,7 +1,7 @@
 import gameEngine from '../index.js';
 import getRandomInRange from '../getRandomInRange.js';
 
-const gameDescription = () => 'Answer "yes" if the number is even, otherwise answer "no".';
+const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (checkNumber) => {
   const result = checkNumber % 2 === 0;

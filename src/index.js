@@ -8,18 +8,17 @@ const gameEngine = (description, generateRound) => {
 
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
-  console.log(`${description}!`);
+  console.log(description);
 
   for (let i = 0; i < rounds; i += 1) {
-    const [outQuestion, outAnswer] = generateRound();
-    console.log(`Question: ${outQuestion}`);
+    const [question, answer] = generateRound();
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    const rightAnswer = outAnswer;
 
-    if (userAnswer === rightAnswer) {
+    if (userAnswer === answer) {
       console.log('Correct!');
     } else {
-      return console.log(redColor, `"${userAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}". \nLet's try again, ${userName}!`);
+      return console.log(redColor, `"${userAnswer}" is wrong answer ;(. Correct answer was "${answer}". \nLet's try again, ${userName}!`);
     }
   } return console.log(greenColor, `Congratulations, ${userName}!`);
 };
