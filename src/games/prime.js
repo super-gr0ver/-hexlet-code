@@ -14,8 +14,7 @@ const isPrime = (checkNumber) => {
 
 const gameTask = () => {
   const randomNumber = getRandomInRange(2, 101);
-  let answer = '';
-  answer = (isPrime(randomNumber) === true) ? answer = 'no' : answer = 'yes';
+  const answer = isPrime(randomNumber) === true ? 'no' : 'yes';
 
   return [randomNumber, answer];
 };
