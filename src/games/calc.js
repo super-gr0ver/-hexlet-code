@@ -9,22 +9,16 @@ const getRandomOperators = () => {
 };
 
 const calculation = (num1, num2, operator) => {
-  let answer = '';
   switch (operator) {
     case '+':
-      answer = num1 + num2;
-      break;
+      return num1 + num2;
     case '-':
-      answer = num1 - num2;
-      break;
+      return num1 - num2;
     case '*':
-      answer = num1 * num2;
-      break;
+      return num1 * num2;
     default:
-      throw new Error(`Operator ${operator} - doesn't supported`);
+      throw new Error(`Operator ${operator} - doesn't supported);`);
   }
-
-  return answer;
 };
 
 const generateRound = () => {

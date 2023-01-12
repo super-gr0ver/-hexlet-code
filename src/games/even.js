@@ -3,15 +3,11 @@ import getRandomInRange from '../getRandomInRange.js';
 
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const isEven = (checkNumber) => {
-  const result = checkNumber % 2 === 0;
-  return result;
-};
+const isEven = (checkNumber) => checkNumber % 2 === 0;
 
 const gameTask = () => {
   const randomNumber = getRandomInRange(0, 10);
-  let answer = '';
-  answer = (isEven(randomNumber) === true) ? answer = 'yes' : answer = 'no';
+  const answer = isEven(randomNumber) === true ? 'yes' : 'no';
   const question = String(randomNumber);
   return [question, answer];
 };

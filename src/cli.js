@@ -2,8 +2,7 @@
 import readlineSync from 'readline-sync';
 
 export const welcome = () => {
-  const welcomeText = 'Welcome to the Brain Games!';
-  console.log(`${welcomeText}`);
+  console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
 };

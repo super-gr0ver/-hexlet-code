@@ -2,6 +2,7 @@ import gameEngine from '../index.js';
 import getRandomInRange from '../getRandomInRange.js';
 
 const gameDescription = 'What number is missing in the progression?';
+
 const gameTask = () => {
   const randomArrLength = getRandomInRange(5, 10);
   const randomArrIndex = (getRandomInRange(5, randomArrLength) - 1);
