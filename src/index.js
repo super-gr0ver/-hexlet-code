@@ -18,8 +18,9 @@ const gameEngine = (description, generateRound) => {
     if (userAnswer === answer) {
       console.log('Correct!');
     } else {
-      return console.log(redColor, `"${userAnswer}" is wrong answer ;(. Correct answer was "${answer}". \nLet's try again, ${userName}!`);
+      console.log(redColor, `"${userAnswer}" is wrong answer ;(. Correct answer was "${answer}". \nLet's try again, ${userName}!`);
+      return;
     }
-  } return console.log(greenColor, `Congratulations, ${userName}!`);
+  } console.log(greenColor, `Congratulations, ${userName}!`);
 };
 export default gameEngine;

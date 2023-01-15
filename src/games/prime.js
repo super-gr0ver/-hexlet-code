@@ -12,7 +12,7 @@ const isPrime = (checkNumber) => {
   return false;
 };
 
-const gameTask = () => {
+const generateRound = () => {
   const randomNumber = getRandomInRange(2, 101);
   const answer = isPrime(randomNumber) === true ? 'no' : 'yes';
 
@@ -20,5 +20,5 @@ const gameTask = () => {
 };
 
 export default () => {
-  gameEngine(gameDescription, gameTask);
+  gameEngine(gameDescription, generateRound);
 };
